@@ -28,4 +28,8 @@ public class Conta {
             return false;
         }
     }
+
+    public double pegaSaldo(){
+        return this.saldo;
+    }
 }
