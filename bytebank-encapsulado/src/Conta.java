@@ -4,6 +4,7 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
+    public int setNumero;
 
     public void deposita(double valor){
         // this.saldo = this.saldo + valor;
@@ -37,7 +38,7 @@ public class Conta {
         return this.numero;
     }
 
-    public void setnumero(int novoNumero) {
+    public void setNumero(int novoNumero) {
         this.numero = novoNumero;
     }
 }
