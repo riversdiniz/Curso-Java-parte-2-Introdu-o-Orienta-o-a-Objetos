@@ -1,4 +1,5 @@
 public class Conta {
+    
     private double saldo;
     int agencia;
     int numero;
@@ -20,13 +21,12 @@ public class Conta {
     }
 
     public boolean transfere(double valor, Conta destino) {
-        if(this.saldo >= valor){
+        if (this.saldo >= valor) {
             this.saldo -= valor;
             destino.deposita(valor);
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     public double pegaSaldo(){
