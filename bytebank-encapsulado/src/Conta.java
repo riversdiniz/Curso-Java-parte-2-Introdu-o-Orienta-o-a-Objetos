@@ -36,4 +36,8 @@ public class Conta {
     public int getNumero() {
         return this.numero;
     }
+
+    public void setnumero(int novoNumero) {
+        this.numero = novoNumero;
+    }
 }
