@@ -3,5 +3,8 @@ public class TestaGetESet {
         Conta conta = new Conta();
         conta.setNumero(1337);
         System.out.println(conta.getNumero());
+
+        Cliente river = new Cliente();
+        conta.titular = river;
     }
 }
