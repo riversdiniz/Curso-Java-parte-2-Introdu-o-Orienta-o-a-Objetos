@@ -11,5 +11,6 @@ public class TestaGetESet {
         conta.setTitular(river);
 
         System.out.println(conta.getTitular().getNome());
+        conta.getTitular().setProfissao("Programador");
     }
 }
