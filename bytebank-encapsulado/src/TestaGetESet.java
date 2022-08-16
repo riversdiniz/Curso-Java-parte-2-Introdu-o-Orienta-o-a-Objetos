@@ -14,5 +14,13 @@ public class TestaGetESet {
 
         conta.getTitular().setProfissao("Programador");
         System.out.println(conta.getTitular().getProfissao());
+
+        //agora em duas linhas
+        Cliente titularDaConta = conta.getTitular();
+        titularDaConta.setProfissao("Programador");
+
+        System.out.println(titularDaConta);
+        System.out.println(river);
+        System.out.println(conta.getTitular());
     }
 }
