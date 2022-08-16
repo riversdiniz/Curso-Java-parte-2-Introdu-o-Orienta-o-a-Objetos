@@ -10,6 +10,6 @@ public class TestaGetESet {
 
         conta.setTitular(river);
 
-        System.out.println(conta.getTitular());
+        System.out.println(conta.getTitular().getNome());
     }
 }
