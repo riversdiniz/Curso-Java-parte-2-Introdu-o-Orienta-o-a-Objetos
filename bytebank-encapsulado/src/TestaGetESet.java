@@ -5,6 +5,8 @@ public class TestaGetESet {
         System.out.println(conta.getNumero());
 
         Cliente river = new Cliente();
+        river.nome = "River Diniz";
+
         conta.setTitular(river);
     }
 }
