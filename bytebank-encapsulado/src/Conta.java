@@ -8,7 +8,7 @@ public class Conta {
     public Conta(int agencia, int numero){
         this.agencia = agencia;
         this.numero = numero;
-        System.out.println("estou criando uma conta");
+        System.out.println("estou criando uma conta " + this.numero);
     }
 
     public void deposita(double valor){
