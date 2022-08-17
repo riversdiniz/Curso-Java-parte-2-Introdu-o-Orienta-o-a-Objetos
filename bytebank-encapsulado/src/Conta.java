@@ -39,6 +39,10 @@ public class Conta {
     }
 
     public void setNumero(int numero) {
+        if(numero <= 0){
+            System.out.println("não pode valor <= 0");
+            return;
+        }
         this.numero = numero;
     }
 
@@ -47,6 +51,9 @@ public class Conta {
     }
 
     public void setAgencia(int agencia) {
+        if (agencia <= 0) {
+            System.out.println("nao pode valor menor igual a 0");
+        }
         this.agencia = agencia;
     }
 
