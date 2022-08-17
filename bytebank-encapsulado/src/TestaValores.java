@@ -3,5 +3,7 @@ public class TestaValores {
         Conta conta = new Conta();
         conta.setAgencia(-50);
         conta.setNumero(-330);
+
+        System.out.println(conta.getAgencia());
     }
 }

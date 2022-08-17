@@ -4,7 +4,12 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
-    public int setNumero;
+
+    public Conta(int agencia, int numero){
+        this.agencia = agencia;
+        this.numero = numero;
+        System.out.println("estou criando uma conta");
+    }
 
     public void deposita(double valor){
         // this.saldo = this.saldo + valor;
